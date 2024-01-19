@@ -4,7 +4,7 @@ Engine originally used on [Mind Games Mod](https://gamebanana.com/mods/301107), 
 
 ## Installation:
 
-Refer to [the Build Instructions](./BUILDING.md)
+Go to Actions, then look for web then install the build.
 
 ## Customization:
 
