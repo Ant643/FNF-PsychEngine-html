@@ -30,11 +30,8 @@ jobs:
           if-no-files-found: error
 
           -name: Deploy To Pages
-          
           uses: JamesIves/github-pages-deploy-action@v4.5.0
-            
-
-          
+  
   Emscripten:
     runs-on: ubuntu-latest
     steps:
