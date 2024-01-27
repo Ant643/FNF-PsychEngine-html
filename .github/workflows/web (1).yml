@@ -17,15 +17,13 @@ jobs:
           haxelib setup ~/haxelib
           haxelib install hmm --quiet
           haxelib run hmm install --quiet
-            
-            - name: Branch Creator
-            uses: Vent-Finance/branch_creator@v1.0.0
-             with:
-                  # Branch name
-                  name: html build 
-          
+
+
+
       - name: Compile
         run: haxelib run lime build html5 -final
+
+        
 
       - name: Upload Artifact
         if: ${{ success() }}
